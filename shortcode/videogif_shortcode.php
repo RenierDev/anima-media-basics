@@ -26,3 +26,11 @@ function videogif($atts = [])
     return $o;
 }
 add_shortcode('videogif', 'videogif');
+
+
+function videogif_load_plugin_css() {
+    $plugin_url = plugin_dir_url( __FILE__ );
+
+    wp_enqueue_style( 'videogif', $plugin_url . 'css/videogif.css' );
+}
+add_action( 'wp_enqueue_scripts', 'videogif_load_plugin_css' );
