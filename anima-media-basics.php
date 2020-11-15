@@ -15,4 +15,5 @@ include('inc/remove_topbar_logo.php');
 include('inc/set_logo_to_login.php');
 
 include('shortcode/flipcard_shortcode.php');
-require_once('shortcode/videogif_shortcode.php');
+// require_once('shortcode/videogif_shortcode.php');
+include( plugin_dir_path( __FILE__ ) . 'shortcode/videogif_shortcode.php');
