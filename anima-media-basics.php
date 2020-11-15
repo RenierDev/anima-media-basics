@@ -15,4 +15,4 @@ include('inc/remove_topbar_logo.php');
 include('inc/set_logo_to_login.php');
 
 include('shortcode/flipcard_shortcode.php');
-include('shortcode/videogif_shortcode.php');
+// include('shortcode/videogif_shortcode.php');
