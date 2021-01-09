@@ -13,7 +13,7 @@ function wpb_login_logo()
             background-repeat: no-repeat;
             height:130px;
             width:100%;
-            /* background-size: 300px 100px; */
+            background-size: 300px 100px;
         }
     </style>
 
