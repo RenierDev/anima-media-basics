@@ -11,8 +11,8 @@ function wpb_login_logo()
         #login h1 a, .login h1 a {
             background-image: url("<?php echo $default_logo; ?>");
             background-repeat: no-repeat;
-            /* height:130px; */
-            /* width:100%; */
+            height:130px;
+            width:100%;
             /* background-size: 300px 100px; */
         }
     </style>
